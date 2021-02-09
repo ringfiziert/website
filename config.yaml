@@ -1,0 +1,115 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: ringfiziert
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/ringfiziert_schwarz.png
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: ringfiziert
+    # Hero subtitle (optional)
+    subtitle: The Real World of Sim Racing
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    # buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: logos/ghd.png
+  section2:
+    title: Discord
+    subtitle: Join our Discord
+    image: logos/discord.png
+    buttonText: Join
+    buttonLink: "https://discord.gg/rVmyQWPXv4"
+  section4:
+    title: Jetta Cup
+    # subtitle: Join our Community
+    image: illustrations/GHD_Jetta_TDI_Cup_3.png
+  section5:
+    title: 24h Le Mans
+    subtitle: Schneller Hase
+    # subtitle: Join our Community
+    image: illustrations/24h_LeMans_GHD_02.png
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
+  footer:
+    # Logo (from /images/logos/___)
+    logo: ringfiziert_schwarz.png
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/ringfiziert
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://www.facebook.com/ringfiziert
+      icon: facebook
+    - link: https://www.instagram.com/ringfiziert
+      icon: instagram
+    # bulmalogo: true
+    # quicklinks:
+    #   column1:
+    #     title: "Product"
+    #     links:
+    #     - text: Discover features
+    #       link: /
+    #     - text: Why choose our product?
+    #       link: /
+    #     - text: Compare features
+    #       link: /
+    #     - text: Our roadmap
+    #       link: /
+    #     - text: AGB
+    #       link: /agb
+    #   column2:
+    #     title: "Docs"
+    #     links:
+    #     - text: Get started
+    #       link: /
+    #     - text: User guides
+    #       link: /
+    #     - text: Admin guide
+    #       link: /
+    #     - text: Developers
+    #       link: /
+    #   column3:
+    #     title: "Blog"
+    #     links:
+    #     - text: Latest news
+    #       link: /blog/first
+    #     - text: Tech articles
+    #       link: /blog/second
