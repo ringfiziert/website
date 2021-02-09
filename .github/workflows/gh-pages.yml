@@ -27,7 +27,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@latest
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: .
 
 - name: Setup Hugo
   uses: peaceiris/actions-hugo@latest
